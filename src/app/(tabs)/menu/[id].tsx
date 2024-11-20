@@ -5,7 +5,7 @@ const ProductDetailsScreen = () => {
   const { id } = useLocalSearchParams();
   return (
     <View style={styles.container}>
-      <Stack.Screen options={{ title: "Details" + id }} />
+      <Stack.Screen options={{ title: "Details " + id }} />
       <Text style={{ fontSize: 20 }}>Product details for id: {id}</Text>
     </View>
   );
